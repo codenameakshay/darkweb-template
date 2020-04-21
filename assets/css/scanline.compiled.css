@@ -1,0 +1,15 @@
+.scanline {
+  overflow: hidden;
+  mix-blend-mode: difference;
+}
+
+.scanline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: repeating-linear-gradient(to bottom, transparent 0%, rgba(36, 255, 0, 0.2) 0.5%, transparent 1%);
+  animation: fudge 2s ease-in-out alternate infinite;
+}
