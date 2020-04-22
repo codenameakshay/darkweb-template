@@ -1,0 +1,35 @@
+h2 {
+  color: rgb(102,153,0);
+}
+
+.feature {
+  height: 60vh;
+  overflow: hidden;
+}
+
+.feature-picture {
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.feature:hover > .feature-picture {
+  transform: scale(1.1);
+}
+
+.feature:hover > .overlay {
+  opacity: 0;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+

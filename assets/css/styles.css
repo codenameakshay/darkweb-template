@@ -7,3 +7,15 @@
   background-size: cover;
 }
 
+.bggreen {
+  position: relative;
+  top: -210%;
+  left: 62%;
+  z-index: 10;
+}
+
+.contpos {
+  position: relative;
+  z-index: 20;
+}
+
