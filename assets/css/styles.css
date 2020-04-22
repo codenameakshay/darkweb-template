@@ -7,6 +7,11 @@
   background-size: cover;
 }
 
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .bggreen {
   position: relative;
   top: -210%;
@@ -17,5 +22,13 @@
 .contpos {
   position: relative;
   z-index: 20;
+}
+
+.fooot {
+  position: sticky;
+  bottom: 0;
+  left: -20%;
+  width: 87%;
+  height: 120px;
 }
 
